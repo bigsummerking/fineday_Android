@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="正在加载资源"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请你耐心等待"
+        android:textSize="16sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_iv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/loading"
+        android:gravity="center">
+    </pl.droidsonroids.gif.GifImageView>
+
+
+</LinearLayout>

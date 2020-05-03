@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_iv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/timg"></pl.droidsonroids.gif.GifImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginRight="170sp"></ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:orientation="horizontal"
+        android:layout_marginLeft="200dp"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/id_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="Hello World!"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/id_tv_genres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tv_title"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:text="Hello World!"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/id_tv_average"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tv_genres"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:id="@+id/id_tv_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tv_average"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Hello World!" />
+    </RelativeLayout>
+</RelativeLayout>

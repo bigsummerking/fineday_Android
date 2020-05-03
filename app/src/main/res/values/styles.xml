@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoteTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="toolbarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="tvBackground">@color/white</item>
+        <item name="lvBackground">@color/near_white</item>
+        <item name="menu_search">@drawable/ic_search_black_24dp</item>
+        <item name="menu_delete_all">@drawable/ic_delete_forever_black_24dp</item>
+        <item name="menu_delete">@drawable/ic_delete_black_24dp</item>
+        <item name="titleColor">@color/black</item>
+        <item name="tvMainColor">@color/black</item>
+        <item name="tvSubColor">@color/grey9</item>
+        <item name="settingIcon">@drawable/ic_settings_black_24dp</item>
+        <item name="addTag">@drawable/ic_add_black_24dp</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+</resources>

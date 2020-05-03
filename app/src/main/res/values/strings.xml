@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FineDay</string>
+    <string name="countapp_name">乌鸦记账</string>
+    <string name="noteapp_name">鸵鸟便签</string>
+    <string name="movieapp_name">水牛电影</string>
+    <string name="checkapp_name">蜗牛足迹</string>
+    <string name="musciapp_name">壁虎音乐</string>
+</resources>

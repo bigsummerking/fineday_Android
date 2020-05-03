@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:textColor="@color/white"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:text="蜗牛足迹"
+        />
+    <com.amap.api.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mytracks"
+        android:layout_width="match_parent"
+        android:layout_height="450sp"
+        android:layout_below="@+id/title"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cleartracks"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_below="@+id/mytracks"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="135dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="清空足迹"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
